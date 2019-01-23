@@ -12,7 +12,7 @@
     },
     "variables": {
         "appInsightsName": "[concat(parameters('appName'), '-insights')]",
-        "hostingPlanName": "[concat(parameters('appName'), '-spa-plan')]",
+        "hostingPlanName": "[concat(parameters('appName'), '-app-plan')]",
         "functionAppStorage": "[concat(parameters('appName'), 'func', uniqueString(resourceGroup().Id))]",
         "backendFunctionsName": "[concat(parameters('appName'), '-func-', uniqueString(resourceGroup().Id))]",
         "cosmosDbName": "[concat(parameters('appName'), '-cosmosdb-', uniqueString(resourceGroup().Id))]",
