@@ -1,5 +1,5 @@
 # kudos-backend-functions
-Code for implementing Kudos API backend on Node.JS in Azure Functions
+Infrastructure for implementing Kudos API backend on Node.JS in Azure Functions. Functions source code is maintained in [kudos-functions-code](https://github.com/azurecz/kudos-functions-code).
 
 # Deploy complete solution from master template
 Go to kudos repo and use master template to provision all components of the solution.
